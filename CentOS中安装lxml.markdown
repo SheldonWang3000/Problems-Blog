@@ -4,9 +4,13 @@
 
 ---
 ### 1.依赖安装
-    yum install libxslt-devel libxml2-devel
+```bash
+yum install libxslt-devel libxml2-devel
+```
 ### 2.安装
-    pip install lxml
+```bash
+pip install lxml
+```
 
 
 

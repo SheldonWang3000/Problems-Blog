@@ -8,16 +8,18 @@
 _LANG的值
 
 Python
-
-    import os
-    os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'  
+```Python
+import os
+os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'  
+```
 
 Bash
-
-    cd /home/oracle/ #这里要进入oracle用户的目录下
-    vi .bash_profile
-        插入NLS_LANG="SIMPLIFIED CHINESE_CHINA.UTF8";export NLS_LANG
-    source .bash_profile
+```bash
+cd /home/oracle/ #这里要进入oracle用户的目录下
+vi .bash_profile
+    插入NLS_LANG="SIMPLIFIED CHINESE_CHINA.UTF8";export NLS_LANG
+source .bash_profile
+```
     
 
 
